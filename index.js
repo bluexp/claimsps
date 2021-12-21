@@ -67,7 +67,7 @@ async function login(page, account, password) {
 
         console.log('打开SPS页面');
         await page.click("div.sps-container");
-        await page.waitForTimeout(4000);
+        await page.waitForTimeout(14000);
         
         console.log('收取SPS质押收益');
         await page.click("button.claim_button");
