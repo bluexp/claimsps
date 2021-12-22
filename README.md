@@ -8,8 +8,10 @@
 # 基本设置
 首先编辑生成`.env`文件(修改`.env-Example`后改名即可)
 文件内容在=后面输入用户名及密码即可:
+```
 ACCOUNT=youraccountname
 PASSWORD=yourpostingkey
+```
 >注意，不要使用邮箱和密码的方式，而需要使用`用户名`和`private keys`方式，`private keys`需要安全备份，不要与任何人分享。
 # 系统运行
 >windows系统启动运行cmd控制台
