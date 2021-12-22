@@ -4,8 +4,8 @@
 >本程序只用来研究和学习，请勿用于其他用途。
 >对于有可能发生的封号及虚拟货币的损失，本程序不承担任何责任。
 # 运行环境
-+可在Windows、Mac和Linux下运行。
-+需要安装NodeJS最新版本，或版本需高于(version 14.18.0)，如果没有安装过 点击这里的官网地址下载https://nodejs.org/en/download/
++ 可在Windows、Mac和Linux下运行。
++ 需要安装NodeJS最新版本，或版本需高于(version 14.18.0)，如果没有安装过 点击这里的官网地址下载https://nodejs.org/en/download/
 # 基本设置
 首先编辑生成`.env`文件(修改`.env-Example`后改名即可)
 文件内容在=后面输入用户名及密码即可:
