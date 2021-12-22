@@ -3,10 +3,9 @@ const puppeteer = require('puppeteer');
 require('dotenv').config();
 let account = process.env.ACCOUNT;
 let password = process.env.PASSWORD;
-//let hl = process.env.HEADLESS;
-//console.log(hl);
+
 (async () => {
-  const browser = await puppeteer.launch({headless:false,args:['--start-maximized']});
+  const browser = await puppeteer.launch({headless:true,args:['--start-maximized']});
   const page = await browser.newPage();
 
   await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3163.100 Safari/537.36');
