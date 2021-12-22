@@ -9,10 +9,12 @@
 例如:
 ACCOUNT=youraccountname
 PASSWORD=yourpostingkey
+注意，不要使用邮箱和密码的方式，而需要使用用户名和private keys，private private keys要安全备份，不要与任何人分
 
-注意，不要使用邮箱和密码的方式，而需要使用用户名和private keys，private private keys要安全备份，不要与任何人分享。
-
-windows系统在运行cmd控制台、Mac和Linux系统运行系统控制台，并输入:
+#系统运行
+windows系统启动运行cmd控制台
+Mac和Linux系统运行系统控制台，
+并输入:
 
 npm install
 
