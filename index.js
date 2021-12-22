@@ -3,9 +3,9 @@ const puppeteer = require('puppeteer');
 require('dotenv').config();
 let account = process.env.ACCOUNT;
 let password = process.env.PASSWORD;
-
+let hl = process.env.HEADLESS;
 (async () => {
-  const browser = await puppeteer.launch({headless:true,args:['--start-maximized']});
+  const browser = await puppeteer.launch({headless:hl,args:['--start-maximized']});
   const page = await browser.newPage();
 
   await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3163.100 Safari/537.36');
@@ -70,8 +70,10 @@ async function login(page, account, password) {
         await page.waitForTimeout(14000);
         
         console.log('收取SPS质押收益');
-        await page.click("button.claim_button");
+        /*await page.click("button.claim_button");
         await page.waitForTimeout(12000);
+
+
 
         console.log('收取SPS空投收益');
         await page.focus('#claim_btn_hive');
@@ -88,7 +90,7 @@ async function login(page, account, password) {
         await page.keyboard.press('Enter');
         await page.waitForTimeout(12000);        
         console.log('关闭SPS质押对话框，质押成功');
-        
+        */
         
     } catch (e) {
         throw new Error('运行错误，请检查相关设置');
