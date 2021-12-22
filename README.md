@@ -2,16 +2,15 @@
 # 主要功能
 运行本成后会自动登陆splinterlands，自动完成收取SPS并质押的一系列操作。
 >本程序只用来研究和学习，请勿用于其他用途。
->对于有可能发生的封号及虚拟货币的损失，本程序不有任何负责任。
+>对于有可能发生的封号及虚拟货币的损失，本程序不承担任何责任。
 # 运行环境
-需要安装 NodeJS最新版本，如果没有安装过 点击这里的官网地址下载https://nodejs.org/en/download/
-版本需高于(version 14.18.0)
+需要安装NodeJS最新版本，或版本需高于(version 14.18.0)，如果没有安装过 点击这里的官网地址下载https://nodejs.org/en/download/
 # 基本设置
-请首先编辑.env文件(修改.env-Example后改名即可)
-例如:
+首先编辑生成`.env`文件(修改`.env-Example`后改名即可)
+文件内容在=后面输入用户名及密码即可:
 ACCOUNT=youraccountname
 PASSWORD=yourpostingkey
->注意，不要使用邮箱和密码的方式，而需要使用用户名和private keys方式，private private 需要安全备份，不要与任何人分享。
+>注意，不要使用邮箱和密码的方式，而需要使用`用户名`和`private keys`方式，`private keys`需要安全备份，不要与任何人分享。
 # 系统运行
 >windows系统启动运行cmd控制台
 >Mac和Linux系统运行系统控制台
