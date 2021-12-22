@@ -6,8 +6,8 @@
 + 运行本程序后会自动登陆splinterlands，自动完成收取SPS并质押的一系列操作。
 # 运行环境
 + 可在Windows、Mac和Linux下运行。
-+ 需要安装NodeJS最新版本，或版本需高于(version 14.18.0)
-+ NodeJS官网 https://nodejs.org/en/download/
++ 需要安装NodeJS最新版本，或版本高于(version 14.18.0)
++ NodeJS官网 https://nodejs.org/
 # 基本设置
 首先编辑生成`.env`文件(修改`.env-Example`后改名即可)
 文件内容在=后面输入用户名及密码即可:
