@@ -1,24 +1,23 @@
-# claimsps
+# claim-sps
+#主要功能
 自动登陆splinterlands收取SPS并质押
-
-REQUIREMENT: You need to install NodeJS from https://nodejs.org/en/download/ (at least the last stable version 14.18.0)
-
-Once NodeJS is installed and you downloaded the bot in a specific folder, you need to set your configuration in the .env file:
-
-you need to create the .env file and include the username and posting key (file with no name, only starting dot to create a hidden file) in the bot folder,
-
-Example:
-
+#运行环境
+需要安装 NodeJS最新版本，如果没有安装过 点击这里的官网地址下载https://nodejs.org/en/download/
+版本需高于(version 14.18.0)
+#基本设置
+请首先编辑.env文件
+例如:
 ACCOUNT=youraccountname
 PASSWORD=yourpostingkey
 
+注意，不要使用邮箱和密码的方式，而需要使用用户名和private keys，private private keys要安全备份，不要与任何人分享。
 
-IMPORTANT: the bot needs the username and posting key in order to login. Don't use the email and password. If you don't have the posting key, you need to 'Request Keys' from the top right menu in Splinterlands. You will receive a link to follow where you will get your Hive private keys. Store them safely and don't share them with anyone!
-
-Once the file is created, open cmd (for windows) or terminal (for Mac and Linux) and run:
+windows系统在运行cmd控制台、Mac和Linux系统运行系统控制台，并输入:
 
 npm install
 
-and then
+完成安装后，输入
 
 npm start
+
+程序即开始运行
